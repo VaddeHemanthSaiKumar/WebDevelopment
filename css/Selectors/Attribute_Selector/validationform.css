@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+#form_validation_container{
+    width: 500px;
+    background-color: lightgrey;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+#Validationform_heading{
+    text-align: center;
+    font-size: 65px;
+}
+.border_black{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: transparent;
+}
+#radio_button{
+    margin-left: 40px;
+}
+#termsandconditions_inputbox{
+    margin-left: 40px;
+}
+#submit_button{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 30px;
+    padding: 10px;
+}
+#radio_buttons_container{
+    margin-left: 40px;
+    
+}
+input[type="radio"],input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+/* pseudo-class-selectors */
+.input_boxes:valid{
+    border-bottom: 3px solid green;
+}
+.input_boxes:invalid{
+    border-bottom: 3px solid red;
+}
+input[type="radio"]:checked,input[type="checkbox"]:checked{
+    /* width: 35px;
+    height: 35px; */
+    transform: scale(1.25);
+}

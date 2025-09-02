@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+h1{
+    font-size: 50px;
+}
+#population_heading{
+    color: red;
+}
+#graph_heading{
+    color: blue;
+}
+.font{
+    font-family: Productsans;
+}
+.fontsize{
+    font-size: 20px;
+}
+.country_heading{
+    width: 500px;
+}
+#india{
+    border-right: 500px solid red;
+}
+#china{
+    border-right: 400px solid orange;
+}
+#usa{
+    border-right: 250px solid green;
+}

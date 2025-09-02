@@ -1,0 +1,138 @@
+/* *{
+    border: black,solid;
+} */
+body{
+    margin: 0;
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.icon_area{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon_name{
+    font-weight: bolder;
+}
+.menu_area{
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    border-radius: 5px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+li:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.main_heading{
+    color:pink ;
+}
+.main_content{
+    background-image: url(../../assests/images/Nature.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: transform 2s;
+}
+.main_content:hover{
+    transform: scale(1.1);
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    transition: transform 2s;
+}
+/* .services:hover{
+    transform: scale(1.1);
+} */
+.services_heading{
+    text-align: center;
+}
+.card1,.card2,.card3,.card_img1,.card_img2,.card_img3{
+    max-width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+.about_us{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    transition: transform 2s;
+}
+.about_us:hover{
+    transform: scale(1.1);
+}
+.side_img{
+    /* max-width: 500px; */
+    height: 360px;
+    width: 485px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+
+.side_text{
+    max-width: 500px;
+    text-align: justify;
+}
+.g1,.g2,.g3{
+    max-width: 500px;
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.g1:hover,.g2:hover,.g3:hover{
+    transform: scale(1.1);
+}
+.gallery_text{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.g1,.g2,.g3{
+    height: 360px;
+    width: 485px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+#p1,#p2,#p3{
+    display: inline-block;
+    /* padding: 5px;
+     */
+    /* height: 360px;
+    width: auto; */
+    margin: 5px;
+}

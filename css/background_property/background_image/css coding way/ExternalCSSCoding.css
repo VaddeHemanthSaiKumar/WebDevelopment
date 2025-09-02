@@ -1,0 +1,20 @@
+h1{
+    width: fit-content;
+    font-size: 50px;
+    color: red;
+    border: 5px solid black;
+}
+p{
+    font-size: 30px;
+    color: greenyellow;
+    background-color: gray;
+}
+button{
+    font-size: 35px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

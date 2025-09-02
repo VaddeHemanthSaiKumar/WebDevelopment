@@ -1,0 +1,19 @@
+@font-face {
+    font-family: productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+.headings{
+    width: fit-content;
+    font-size: 120px;
+    font-family: productsans;
+    background-clip: text;
+    color: transparent;
+}
+#instagram_heading{
+    background-image: linear-gradient(darkblue,magenta,red,orange);
+}
+#earth_heading{
+    background-image: url(../../../assests/images/earth.png);
+    background-size: 100%;
+    background-position: center;
+}

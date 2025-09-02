@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <fieldset style="border: 3px solid black;width: fit-content;">
+        <legend style="font-size: 50px;color: white;background-color: darkblue;text-align: center;">RegistrationForm</legend>
+        <form action="" style="text-align: center;">
+            <input type="text" name="Firstname" id="firstname_inputbox" placeholder="Firstname" style="font-size: 25px;" autofocus required><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <input type="text" name="LastName" id="lastname_inputbox" placeholder="LastName" style="font-size: 25px;" required><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <input type="tel" name="MobileNumber" id="mobileNumber_inputbox" placeholder="MobileNumber" style="font-size: 25px;" required><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <input type="text" name="Aadharcardnumber" id="aadharcardnumber_inputbox" placeholder="Aadharcardnumber" style="font-size: 25px;" required><sup style="font-size: 25px; color: red;">*</sup>
+            <br>
+            <input type="text" name="Pancardnumber" id="pancardnumber_inputbox" placeholder="Pancardnumber" style="font-size: 25px;" value="ABC264AC" readonly><sup style="font-size: 25px;color: red;">*</sup>
+            <br>
+            <label for="" style="font-size: 25px;">EnterOTP</label>
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <input type="text" name="OTP" id="otp_inputboxes" style="font-size: 25px; width: 20px; text-align: center; text-align: center;" minlength="1" maxlength="1">
+            <br><br>
+            <input type="button" value="ValidateOTP" style="background-color: lightgray; outline: none; border: none;border-radius: 30px;font-size: 30px;cursor: pointer;" disabled>
+            <br><br>
+            <input type="time" name="time" id="time_picker" style="background-color: lightgray; outline: none;" min="08:00" max="18:00">
+            <br>
+            <input type="date" name="date" id="date_picker" style="font-size: 25px;" min="2025-07-06" max="2025-07-12">
+            <br>
+            <input type="number" name="Age" id="driving_license_age_inputbox" placeholder="Age" style="font-size: 25px;" min="18" max="">
+            <br><br>
+            <textarea name="Address" id="address_inputbox" placeholder="Address" style="font-size: 25px;resize: none;outline: none;background-color: lightgray;border: none;border-radius: 10px;" cols="25" rows="5""></textarea>
+            <br><br>
+            <!--dropdown list-->
+            <select name="City" id="city_dropdown_list" style="font-size: 25px;">
+                <option>--selectcity--</option>
+                <optgroup label="Telangana">
+                    <option>Hyderabad</option>
+                    <option>Warangal</option>
+                    <option>HiTechCity</option>
+                </optgroup>
+                <optgroup label="AndhraPradesh">
+                    <option>Vijayawada</option>
+                    <option>Guntur</option>
+                    <option>Visakapatnam</option>
+                </optgroup>
+                <optgroup label="TamilNadu">
+                    <option>Chennai</option>
+                    <option>Pondicherry</option>
+                    <option>Coimbatore</optio n>
+                </optgroup>
+            </select>
+            <br><br>
+            <input type="text" name="Course" id="Course_inputbox" placeholder="Course" style="font-size: 25px;" list="course_data_list">
+            <!--datalist-->
+            <datalist id="course_data_list">
+                <option>MachineLearning</option>
+                <option>ArtificialIntelligence</option>
+                <option>DataScience</option>
+                <option>CoreJava</option>
+                <option>Corepython</option>
+            </datalist>
+            <br><br>
+            <input type="submit" value="Register" style="font-size: 30px;outline: none;border: none;background-color: darkblue;color: white;border-radius: 30px;cursor: pointer;">
+            <input type="reset" value="Cancel" style="font-size: 30px;outline: none;border: none;background-color: darkblue;color: white;border-radius: 30px;cursor: pointer;">
+        </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+.ocean_hyperlinks {
+    font-family: Productsans;
+    font-size: 30px;
+}
+.ocean_hyperlinks:link{
+    color: orange;
+}
+.ocean_hyperlinks:visited{
+    color: red;
+}
+#blocks_container{
+    width: fit-content;
+    height: 100px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    border-bottom: 10px solid black;
+    cursor: pointer;
+}
+.blocks{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+#blocks_container:hover>.blocks:first-child,#blocks_container:hover>.blocks:last-child{
+    background-color: darkblue;
+}
+#blocks_container:hover>.blocks:nth-child(2),#blocks_container:hover>.blocks:nth-last-child(2){
+    background-color: red;
+}
+.input_boxes{
+    font-size: 30px;
+    outline: none;
+}
+.input_boxes:required{
+    border: 3px solid red;
+}
+.input_boxes:focus{
+    border:none;
+    border-bottom: 3px solid red;
+}
+.input_boxes:read-only{
+    border: none;
+    border-bottom: 3px solid black;
+}
+.input_buttons{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    background-color: lightgray;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+.input_buttons:disabled{
+    border: 3px solid black;
+}

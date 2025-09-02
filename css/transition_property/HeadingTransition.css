@@ -1,0 +1,26 @@
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#web_development_heading{
+    font-family: ProductSans;
+    width: fit-content;
+    font-size: 135px;
+    background-image: linear-gradient(to right ,violet,indigo,blue,green,yellow,orange,red);
+    background-size: 2000%;
+    margin: 225px auto;
+    cursor: pointer;
+    background-clip: text ;
+    color: transparent;
+}
+#web_development_heading:hover{
+    background-position: right;
+    /* transition shorthand property */
+    /* transition:property duration timing-function delay; */
+    transition: background-position 1500ms linear 100ms;
+}

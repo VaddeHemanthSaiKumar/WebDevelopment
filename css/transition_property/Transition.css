@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#transition_container {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border: 25px solid gray;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+#transition_container:hover {
+    width: 600px;
+    height: 600px;
+    border: 75px solid gray;
+    border-radius: 50%;
+}

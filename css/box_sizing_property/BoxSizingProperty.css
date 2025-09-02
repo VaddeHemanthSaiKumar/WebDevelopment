@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+#box_container{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-family: ProductSans;
+    color: white;
+    background-color: purple;
+    padding-left: 20px;
+    border: 25px solid gray;
+    box-sizing: border-box;
+}

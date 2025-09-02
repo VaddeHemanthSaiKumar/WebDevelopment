@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#Ashoka_chakra_rotation_container{
+    width: 80%;
+    height: 450px;
+    margin: 100px auto;
+    cursor: pointer;
+}
+.colors{
+    width: 100%;
+    height: 33.3%;
+    border-radius: 60px;
+}
+#orange_color{
+    background-color: orange;
+}
+#white_color{
+    background-color: white;
+}
+#ashoka_chakra_container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../../assests/images/ashokachakra.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+#green_color{
+    background-color: green;
+}
+#Ashoka_chakra_rotation_container:hover #ashoka_chakra_container{
+    transform: rotateZ(3600deg);
+    transition: transform 100s linear;
+}

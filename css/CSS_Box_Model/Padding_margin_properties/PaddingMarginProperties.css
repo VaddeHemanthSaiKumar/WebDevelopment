@@ -1,0 +1,33 @@
+@font-face {
+    font-family: productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+*{
+    font-family: productsans;
+}
+.course_headings{
+    font-size: 50px;
+    border: 30px inset blue;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+}
+.button_headings{
+    font-size: 50px;
+    outline: none;
+    border: none;
+    background-color: gray;
+    cursor: pointer;
+    /* one value */
+    margin: 20px;
+    padding: 20px;
+    /* two value */
+    margin: 20px 20px;
+    /* four value */
+    margin: 20px 20px 20px 20px;
+}
+.image_headings{
+    width: 400px;
+    border: 30px inset blue;
+    margin: 10px 20px 30px 40px;
+}

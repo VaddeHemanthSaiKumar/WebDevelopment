@@ -1,0 +1,32 @@
+@font-face {
+    font-family: productsans;
+    src: url(../../../assests/fonts/ProductSansRegular.ttf);
+}
+body{
+    font-size: 100px;
+    text-align: center;
+    font-family: productsans;
+}
+#Wow_Table{
+    border-collapse: collapse;
+}
+.wowtable_cells{
+    border: 5px solid black;
+}
+.empty_cells{
+    border:none
+}
+.bottom{
+    border-bottom: none;
+}
+.left{
+    border-left: none;
+}
+.top{
+    border-top: none;
+}
+.right{
+    border-right: none;
+}
+
+

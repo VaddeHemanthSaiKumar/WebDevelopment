@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidationForm</title>
+    <link rel="stylesheet" href="validationform.css">
+</head>
+<body>
+    <form action="" id="form_validation_container">
+        <h1 id="Validationform_heading">ValidationForm</h1>
+        <input type="text" name="Username" id="username_inputbox" placeholder="Username"  class="border_black" minlength="8" autofocus>
+        <br>
+        <input type="text" name="Password" id="password_inputbox" placeholder="Password" class="border_black" minlength="8" autofocus>
+        <br>
+        <input type="number" name="Age" id="age_inputbox" placeholder="Age" class="border_black" min="8" autofocus>
+        <br>
+        <label for="" id="radio_button">Gender</label>
+        <div id="radio_buttons_container">
+            <input type="radio" name="gender" id="male_inputbox"><label for="">Male</label>
+            <input type="radio" name="gender" id="female_inputbox"><label for="">Female</label>
+            <input type="radio" name="gender" id="others_inputbox"><label for="">Others</label>
+        </div>
+        <br>
+        <div id="checkbox_container">
+            <input type="checkbox" name="Terms and Conditions" id="termsandconditions_inputbox"><label for="">Terms and Conditions</label>
+        </div>
+        <br>
+        <input type="submit" value="validate" id="submit_button">
+    </form>
+</body>
+</html>

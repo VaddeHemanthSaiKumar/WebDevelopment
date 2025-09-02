@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#sun_container{
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    margin: 100px auto;
+    background-image:url(../../assests/images/moon.png),url(../../assests/images/space.png);
+    border-radius: 30%;
+    background-size: 100%,200%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sun_container:hover {
+    background-image: url(../../assests/images/sun.png),url(../../assests/images/sky.png);
+    background-size: 110%,200%;
+    transition: all 250ms;
+}

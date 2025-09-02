@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Productsans;
+    src: url(../../../../../assests/fonts/ProductSansBold.ttf);
+}
+#gemini_body_container{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to top right,lightblue, hotpink);
+}
+.width_containers{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-color: white;
+}
+#first_container{
+    border-bottom-right-radius: 100%;
+}
+#second_container{
+    border-bottom-left-radius: 100%;
+}
+#third_container{
+    border-top-right-radius: 100%;
+}
+#fourth_container{
+    border-top-left-radius: 100%;
+}
+#google_gemini_heading{
+    font-size: 150px;
+    font-family: Productsans;
+    width: fit-content;
+    background-image: linear-gradient(to top right,lightblue, hotpink);
+    background-clip: text;
+    color: transparent;
+
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#web_development_list_container{
+    background-color: rgb(240,240,240);
+    height: 550px;
+    width: 50%;
+    overflow: auto;
+}
+#web_development_list_heading{
+    color: purple;
+    font-size: 37px;
+    margin-left: 8px;
+}
+#web_development_list{
+    list-style-type: none;
+    color: purple;
+    font-size: 25px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+#html_list,#css_list,#javascript_list,#react_js_list{
+    color: purple;
+    font-size: 20px;
+}
+.html_list_items,.css_list_items,.javascript_list_items,.react_js_list_items{
+    color: black;
+    margin-left: 60px;
+}
+#web_development_list_container::-webkit-scrollbar{
+    width: 12px;
+    background-color: black;
+    border-radius: 50px;
+}
+#web_development_list_container::-webkit-scrollbar-thumb{
+    background-color: peachpuff;
+    border-radius: 50px;
+    width: 12px;
+}
+#web_development_list_container::-webkit-scrollbar-thumb:hover{
+    background-color: orange;
+}

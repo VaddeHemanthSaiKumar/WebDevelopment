@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+#image_gallery_heading{
+    font-family: ProductSans;
+    font-size: 60px;
+    text-align: center;
+    color: purple;
+}
+#all_images_container{
+    margin-top: 465px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.image_containers{
+    height: 150px;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: -110px;
+    transition: transform 1.5s;
+    transform: skew(-25deg);
+}
+#first_image:hover{
+    transform: skew(0deg) scale(2.0) translate(200px,-160px) rotateY(360deg);
+}
+#second_image:hover{
+    transform: skew(0deg) scale(2.0) translate(140px,-160px) rotateY(360deg);
+}
+#third_image:hover{
+    transform: skew(0deg) scale(2.0) translate(70px,-160px) rotateY(360deg);
+}
+#fourth_image:hover{
+    transform: skew(0deg) scale(2.0) translate(10px,-160px) rotateY(360deg);
+}
+#fifth_image:hover{
+    transform: skew(0deg) scale(2.0) translate(-60px,-160px) rotateY(360deg);
+}
+#sixth_image:hover{
+    transform: skew(0deg) scale(2.0) translate(-100px,-160px) rotateY(360deg);
+}

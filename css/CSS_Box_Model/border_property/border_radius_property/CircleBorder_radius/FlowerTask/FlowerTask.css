@@ -1,0 +1,25 @@
+#flower_task_container{
+    width: 300px;
+    height: 150px;
+}
+.width_containers{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#first_container{
+    background-color: red;
+    border-radius: 0% 60% 5% 60%;
+}    
+#second_container{
+    background-color: green;
+    border-radius: 60% 0% 60% 5%;
+}
+#third_container{
+    background-color: blue;
+    border-radius: 60% 5% 60% 0%;
+}
+#fourth_container{
+    background-color: yellow;
+    border-radius: 5% 60% 0% 60%;
+}

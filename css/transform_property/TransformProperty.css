@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#color_blocks_container{
+    width: 300px;
+    height: 100px;
+    margin: 250px auto;
+    padding-bottom: 10px;
+    border-bottom: 10px solid black;
+    cursor: pointer;
+}
+.color_blocks{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+}
+#red_block{
+    background-color: red;
+}
+#darkblue_block{
+    background-color: darkblue;
+}
+#gray_block{
+    background-color: gray;
+}
+#color_blocks_container:hover>.color_blocks{
+    transition: transform 1500ms;
+}
+/* rotate functions */
+#color_blocks_container:hover>#red_block{
+    transform: rotateX(360deg);
+}
+#color_blocks_container:hover>#darkblue_block{
+    transform: rotateY(360deg);
+}
+#color_blocks_container:hover>#gray_block{
+    transform: rotate(360deg);
+    transform: rotateZ(360deg);
+}
+/* skew functions */
+#color_blocks_container:hover>#red_block{
+    transform: skewX(360deg);
+}
+#color_blocks_container:hover>#darkblue_block{
+    transform: skewY(360deg);
+}
+#color_blocks_container:hover>#gray_block{
+    transform: skew(360deg,360deg);
+}
+/* scale functions */
+#color_blocks_container:hover>#red_block{
+    transform: scale(1.5);
+}
+#color_blocks_container:hover>#darkblue_block{
+    transform: scale(1.5);
+}
+#color_blocks_container:hover>#gray_block{
+    transform: scale(2);
+}
+/* translate functions */
+#color_blocks_container:hover>#red_block{
+    transform: translateX(-50px);
+}
+#color_blocks_container:hover>#farkblue_block{
+    transform: translateY(-50px);
+}
+#color_blocks_container:hover>#gray_block{
+    transform: translate(50px,0px);
+}

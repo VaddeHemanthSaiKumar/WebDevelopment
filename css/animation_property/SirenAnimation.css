@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 480px;
+}
+#sirens_block{
+    width: 300px;
+    height: 480px;
+}
+.sirens{
+    position: relative;
+    top: 300px;
+    left: 600px;
+    width: 50%;
+    height: 120px;
+    float: left;
+    border-radius: 30px;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+#red_color_block{
+    animation-name: toAnimateRedBlock;
+}
+#darkblue_color_block{
+    animation-name: toAnimateDarkBlueBlock;
+}
+/* animation logic */
+@keyframes toAnimateRedBlock{
+    from{
+        background-color: red;
+        box-shadow: 0px 0px 10px red,0px 0px 20px red,0px 0px 30px red,0px 0px 40px red,0px 0px 50px red;
+    }
+    to{
+        background-color: transparent;
+    }
+}
+@keyframes toAnimateDarkBlueBlock{
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: darkblue;
+        box-shadow: 0px 0px 10px darkblue,0px 0px 20px darkblue,0px 0px 30px darkblue,0px 0px 40px darkblue,0px 0px 50px darkblue;
+    }
+}

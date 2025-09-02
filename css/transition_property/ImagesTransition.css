@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.images{
+    width: 200px;
+    transition: margin-left 5s;
+}
+#images_container{
+    border-bottom: 30px solid black;
+    cursor: pointer;
+}
+#images_container:hover>.images{
+    margin-left: 84.5%;
+}
+#cycle_image{
+    transition-timing-function: ease;
+}
+#bike_image{
+    transition-delay: 5s;
+    transition-timing-function: ease-in;
+}
+#car_image{
+    transition-delay: 10s;
+    transition-timing-function: ease-in-out;
+}
+#lorry_image{
+    transition-timing-function: ease-out;
+    transition-delay: 15s;
+}
+#buldozer_image{
+    transition-timing-function: linear;
+    transition-delay: 25s;
+}

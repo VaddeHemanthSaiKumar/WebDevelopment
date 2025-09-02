@@ -1,0 +1,18 @@
+body{
+    height: 2000px;
+    background-image:url(../../../assests/images/sun.png),url(../../../assests/images/earth.png),url(../../../assests/images/moon.png), url(../../../assests/images/space.png);
+    background-size: 25%,20%,15%,25%;
+    background-repeat: no-repeat,no-repeat,no-repeat,repeat;
+    background-position: -100px -100px,bottom left,150px 230px,center;
+    background-attachment: fixed,fixed,fixed,scroll;
+}
+#rocket_container{
+    height: 2000px;
+    float: left;
+    width: 80%;
+}
+#human_container{
+    height: 400px;
+    width: 20%;
+
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: productsans;
+}
+@font-face {
+    font-family: productsans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+#earth_fieldset{
+    width: 350px;
+    height: 350px;
+    margin: 120px auto;
+    border: 3px solid darkblue;
+    background-image: url(../../assests/images/earth.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#earth_fieldset:hover{
+    background-size: 50%;
+    background-position: 3%;
+    border: 30px groove gray;
+}
+#earth_legend{
+    font-size: 35px;
+    color: darkblue;
+    margin-left: 7.5%;
+}
+#earth_fieldset:hover>#earth_heading,#earth_fieldset:hover>#earth_paragraph{
+    margin-left: 53%;
+}
+#earth_fieldset:hover>#earth_heading{
+    color: darkblue;
+    font-size: 35px;
+    width: fit-content;
+    background-color: lightgray;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#earth_fieldset:hover>#earth_paragraph{
+    color: darkblue;
+    font-size: 20px;
+}
+#earth_heading,#earth_paragraph{
+    color: transparent;
+}

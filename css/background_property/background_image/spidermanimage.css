@@ -1,0 +1,8 @@
+#spiderman_image_container{
+    width: 500px;
+    height: 500px;
+    background-image:linear-gradient(to bottom right,blue,transparent,transparent,blue),radial-gradient(transparent 20%,red), url(../../../assests/images/spiderman2.png) ;
+    background-color: blue;
+    background-size: 115%;
+    background-position: center;
+}
