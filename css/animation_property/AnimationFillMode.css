@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#red_color_block{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 200px;
+    left: 700px;
+}
+#red_color_block:hover{
+    animation-name: toAnimateRedColorBlock;
+    animation-duration: 6s;
+    animation-fill-mode: both;
+}
+@keyframes toAnimateRedColorBlock{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+        border-radius: 50%;
+        transform: rotate(90deg);
+    }
+    75%{
+        background-color: greenyellow;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: gray;
+    }
+}

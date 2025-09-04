@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+body{
+    height: 500px;
+    width: 750px;
+}
+#image_slide_show_heading{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    color: purple;
+}
+#all_images_container{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    height: 80%;
+    border-radius: 60px;
+    background-color: blue;
+    background-position: center;
+    background-size: 100%;
+}
+#all_images_container:hover{
+    animation-name: toAnimateImagesContainer;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    cursor: pointer;
+}
+/* animation logics */
+@keyframes toAnimateImagesContainer{
+    0%{
+        background-image: url(../../assests/images/Mountains.jpg);
+    }
+    20%{
+        background-image: url(../../assests/images/MountFauji.jpg);
+    }
+    40%{
+        background-image: url(../../assests/images/parachute.jpg);
+    }
+    60%{
+        background-image: url(../../assests/images/Beach.jpg);
+    }
+    80%{
+        background-image: url(../../assests/images/sunrise.jpg);
+    }
+    100%{
+        background-image: url(../../assests/images/Tortoise.jpg);
+    }
+}
