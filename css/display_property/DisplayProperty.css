@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 50px;
+}
+#heading{
+    width: 50%;
+    background-color: greenyellow;
+    color: gray;
+    display: inline;
+}
+#division{
+    width: 75%;
+    color: greenyellow;
+    background-color: gray;
+    display: inline;
+}
+#paragraph{
+    width: 25%;
+    color: orange;
+    background-color: black;
+    display: inline;
+}
+#span{
+    width: 50%;
+    color: white;
+    background-color: purple;
+    display: block;
+}
+#quote{
+    width: 50%;
+    color: darkblue;
+    background-color: lightgray;
+    display: block;
+}
+#bold{
+    width: 50%;
+    background-color: lightpink;
+    display: inline-block;
+}
+.buttons{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5%;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    margin: 10px 0px 10px 10px;
+}
+#display_earth_image:hover~#earth_image{
+    display: inline-block;
+}
+#display_sun_image:hover~#sun_image{
+    display: inline-block;
+}
+.images{
+    width: 300px;
+    display: none;
+    margin-left: 10px;
+}

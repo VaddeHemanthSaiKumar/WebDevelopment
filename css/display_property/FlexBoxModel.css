@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#headings_container{
+    background-color: greenyellow;
+    color: gray;
+    margin: 10px;
+}
+.headings{
+    background-color: purple;
+}

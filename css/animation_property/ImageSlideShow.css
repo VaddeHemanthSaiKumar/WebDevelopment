@@ -20,14 +20,15 @@ body{
     color: purple;
 }
 #all_images_container{
+    width: 100%;
     position: relative;
     top: 20%;
     left: 50%;
     height: 80%;
-    border-radius: 60px;
-    background-color: blue;
+    border-radius: 150px;
+    background-image: url(../../assests/images/Mountains.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #all_images_container:hover{
     animation-name: toAnimateImagesContainer;
@@ -38,8 +39,8 @@ body{
 }
 /* animation logics */
 @keyframes toAnimateImagesContainer{
-    0%{
-        background-image: url(../../assests/images/Mountains.jpg);
+    10%{
+        background-image: url(../../assests/images/Nature.png);
     }
     20%{
         background-image: url(../../assests/images/MountFauji.jpg);
@@ -53,7 +54,7 @@ body{
     80%{
         background-image: url(../../assests/images/sunrise.jpg);
     }
-    100%{
+    90%{
         background-image: url(../../assests/images/Tortoise.jpg);
     }
 }
