@@ -28,7 +28,6 @@ body{
 #toggle_login:checked~#login_form_container{
     display: flex;
 }
-
 /* mountain container */
 #mountains_container{
     width: 100vw;
@@ -39,7 +38,6 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-weight: bold;
-
 }
 .mountain_containers{
     width: 50vw;
