@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+body{
+    height: 650px;
+}
+/* percentage unit */
+#parent_block{
+    width: 25%;
+    height: 25%;
+    background-color: purple;
+    padding: 25px;
+}
+#child_block{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
+/* viewport units */
+#parent_container{
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+}
+#child_container{
+    width: 50%;
+    height: 50%;
+    background-color: lightgray;
+}
+/* rem and em units */
+#parent_text_container{
+    width: 20vw;
+    height: 20vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3rem;
+}
+#child_text_container{
+    width: 50%;
+    height: 50%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}

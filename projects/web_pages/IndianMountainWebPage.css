@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#toggle_login{
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 1vh;
+    right: 0.3vw;
+    display: none;
+}
+#toggle_login:checked~#login_form_container{
+    display: flex;
+}
+
+/* mountain container */
+#mountains_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(../../assests/images/IndianMountHimalayas.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-weight: bold;
+
+}
+.mountain_containers{
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#left_mountain_container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    backdrop-filter: blur(2vw) brightness(60%);
+}
+.mountain_headings{
+    position: relative;
+}
+.main_headings{
+    font-size: 18rem;
+    top: 13vh;
+    left: 0.5vw;
+}
+#ind_heading{
+    background-image: url(../../assests/images/IndianMountHimalayas.jpeg);
+    background-position: -5vw -20vh;
+    background-size: 200% 200%;
+    background-clip: text;
+    color: transparent;
+}
+.sub_headings{
+    font-size: 10rem;
+    top: 10vh;
+    letter-spacing: 1.2vw;
+}
+#moun_heading{
+    left: 5.2vw;
+    background-image: url(../../assests/images/IndianMountHimalayas.jpeg);
+    background-position: -12vw -30vh;
+    background-size: 200% 200%;
+    background-clip: text;
+    color: transparent;
+}
+#ntain_heading{
+    right: 4vw;
+}
+#navigation_bar{
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+    z-index: 3;
+    width: 50vw;
+    height: 7.5vh;
+}
+#navigation_bar_list{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+.navigation_bar_list_items{
+    list-style-type: none;
+    font-size: 3.5vh;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation_bar_list_items:hover{
+    text-shadow: 0vw 0vh 0.5vh black,0vw 0vh 1vh black;
+    transform: scale(1.05);
+}
+/* form data */
+#login_form_container{
+    backdrop-filter: blur(0.5vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    height: 35vh;
+    position: absolute;
+    z-index: 4;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: none;
+}
+.input_boxes{
+    width: 75%;
+    border: none;
+    outline: none;
+    border-radius: 0.5vw;
+    border-bottom: 2px solid white;
+    background:none;
+    font-size: 1.5em;
+}
+#login_heading{
+    font-size: 3em;
+    color: white;
+    text-shadow: 0vw 0vh 0.5vw black,0vw 0vh 1vw black;
+}
+.input_boxes::placeholder{
+    color: white;
+}
+#login_button{
+    width: 10vw;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    padding: 0.5vw 0.5vh;
+    font-weight: bold;
+    border-radius: 7vw;
+    box-shadow: inset 0vw 0vh 1vh black;
+    border: 0.5px solid  black;
+}
