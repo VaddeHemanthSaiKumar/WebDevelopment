@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+    transition: transform 500ms;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+#shoe_container{
+    width: 25vw;
+    height: 50vh;
+    background-image: radial-gradient(at center top,black,white,red);
+    position: absolute;
+    left: 37.5%;
+    top: 25%;
+    border-radius: 7.5vw;
+    color: transparent;
+}
+#shoe_image{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 80%;
+}
+#shoe_container:hover>#shoe_image{
+    transform: rotate(-90deg,-90deg) scale(2);
+    cursor: pointer;
+}
