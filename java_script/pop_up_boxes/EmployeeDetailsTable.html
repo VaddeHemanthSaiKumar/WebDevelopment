@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmployeeDetailsTable</title>
+    <script src="EmployeeDetailsTable.js" defer></script>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: ProductSans;
+        }
+        @font-face {
+            font-family: ProductSans;
+            src: url(../../assests/fonts/ProductSansRegular.ttf);
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lightgray_color{
+            background-color: lightgray;
+        }
+        .lavendar_blush_color{
+            background-color: lavenderblush;
+        }
+        #employee_details_table_caption{
+            background-color: purple;
+            color: white;
+        }
+        .employee_details_table_cells{
+            padding: 0.5vw;
+            font-size: 1.5em;
+        }
+        #employee_details_table_caption{
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <table id="employee_details_table">
+        <caption id="employee_details_table_caption">EmployeeDetailsTable</caption>
+        <tbody id="employee_details_table_body">
+            <tr class="employee_details_table_rows lightgray_color">
+                <td class="employee_details_table_cells ">Name</td>
+                <td class="employee_details_table_cells" id="name_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lavendar_blush_color">
+                <td class="employee_details_table_cells">ID</td>
+                <td class="employee_details_table_cells" id="id_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lightgray_color">
+                <td class="employee_details_table_cells">Salary</td>
+                <td class="employee_details_table_cells" id="salary_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lavendar_blush_color">
+                <td class="employee_details_table_cells">Designation</td>
+                <td class="employee_details_table_cells" id="designation_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lightgray_color">
+                <td class="employee_details_table_cells">MobileNumber</td>
+                <td class="employee_details_table_cells" id="mobile_number_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lavendar_blush_color">
+                <td class="employee_details_table_cells">JobLocation</td>
+                <td class="employee_details_table_cells" id="job_location_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lightgray_color">
+                <td class="employee_details_table_cells">YearsOfExperience</td>
+                <td class="employee_details_table_cells" id="yearsofexperience_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lavendar_blush_color">
+                <td class="employee_details_table_cells">Domain</td>
+                <td class="employee_details_table_cells" id="domain_cell"></td>
+            </tr>
+            <tr class="employee_details_table_rows lightgray_color">
+                <td class="employee_details_table_cells">SkillSet</td>
+                <td class="employee_details_table_cells" id="skillset_cell"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
