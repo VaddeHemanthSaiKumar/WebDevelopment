@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assests/fonts/ProductSansRegular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#explore_button_container{
+    width: 20vw;
+    height: 15vh;
+    background-color: greenyellow;
+    outline: none;
+    border: none;
+    border-radius: 10vw;
+    font-size: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+#compass_container{
+    width: 4.5vw;
+    height: 4.5vw;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1000ms;
+}
+#needle_support_container{
+    width: 1vw;
+    height: 1vw;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+#needle_container{
+    width: 2vw;
+    height: 4.5vh;
+    background-color: greenyellow;
+    transform: skew(30deg);
+    border-radius: 0.125vw;
+}
+#explore_button_container:hover>#compass_container{
+    transform: rotate(360deg);
+}
