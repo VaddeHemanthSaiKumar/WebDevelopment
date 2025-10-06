@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 00px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#four_head_containers{
+    width: 25vw;
+    height: 50vh;
+    animation: toAnimateSamsungFourContainers 2000ms ease-in-out infinite;
+}
+#first_container{
+    border-radius: 40% 40% 0% 40%;
+}
+#second_container{
+    border-radius: 40% 40% 40% 0%;
+}
+#third_container{
+    border-radius: 40% 0% 40% 40%;  
+}
+#fourth_container{
+    border-radius: 0% 40% 40% 40%;
+}
+.samsung_loaders{
+    height: 50%;
+    width: 50%;
+    float: left;
+    animation: toAnimateSamsungContainers 2000ms ease-in-out  infinite;
+}
+.black_color{
+    background-color: black;
+}
+.gray_color{
+    background-color: gray;
+}
+
+/* animation logics */
+@keyframes toAnimateSamsungFourContainers{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes toAnimateSamsungContainers{
+    from,to{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+        border-radius: 50%;
+    }
+}
